@@ -1,0 +1,31 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "minewear"
+version = "0.1.0"
+description = "Wear-life estimation and wear-resistant material selection for mining and mineral processing equipment."
+readme = "README.md"
+license = { file = "LICENSE" }
+authors = [{ name = "Sachintha Madhawa" }]
+requires-python = ">=3.10"
+dependencies = []
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Intended Audience :: Science/Research",
+    "Topic :: Scientific/Engineering",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=7"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+minewear = ["data/*.csv"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
