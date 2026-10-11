@@ -1,0 +1,9 @@
+material,wear_mode,coefficient_type,low,typical,high,test_method,source,source_quality
+AR400,three_body_abrasion,astm_g65_volume_loss_mm3,,,,ASTM G65 procedure A,,
+AR500,three_body_abrasion,astm_g65_volume_loss_mm3,,,,ASTM G65 procedure A,,
+Hadfield manganese steel,three_body_abrasion,astm_g65_volume_loss_mm3,,,,ASTM G65 procedure A,,
+Ni-Hard 4,three_body_abrasion,astm_g65_volume_loss_mm3,,,,ASTM G65 procedure A,,
+High-chromium white iron,three_body_abrasion,astm_g65_volume_loss_mm3,,,,ASTM G65 procedure A,,
+Alumina ceramic,three_body_abrasion,astm_g65_volume_loss_mm3,,,,ASTM G65 procedure A,,
+Natural rubber,two_body_abrasion,iso4649_volume_loss_mm3,,,90,"ISO 4649, 10 N load; published as maximum loss","Trelleborg, Sheet Rubber Products for the Mining Industry (brochure 9372), BLACKROCK PLUS (NR) https://www.trelleborg.com/fluidhandling/-/media/fluid-handling-solutions/tepa/brochure/9372-trelleborg-sheet-rubber-products-for-the-mining-industry.pdf",primary
+Polyurethane,two_body_abrasion,iso4649_volume_loss_mm3,,,12,"ISO 4649, polyester system; published as maximum value, load not stated","NUBA Screening Media, NUBA Technical Advice section 6: Polyurethane Screens https://www.nubasm.com/wp-content/uploads/2023/05/6_Mallas-Poliuretano_ENG_mail.pdf",primary
